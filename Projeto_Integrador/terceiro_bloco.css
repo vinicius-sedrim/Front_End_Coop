@@ -1,84 +1,83 @@
 .quadro3 {
-    width: 100vw;
-    height: 406px;
-    margin-top: 140px;
-    margin-bottom: 20px;
-  }
-  
-  .foto1_quadro3 {
-    position: absolute;
-    width: 406px;
-    height: 406px;
-    left: 400px;
-  
-    background-image: url("/img/imagem3.jpg");
-  }
-  
-  .foto2_quadro3 {
-    position: absolute;
-    width: 406px;
-    height: 406px;
-    left: 280px;
-  
-  }
-  .texto1_quadro3 {
-    position: absolute;
-    width: 340px;
-    height: 56px;
-    left: 40px;
-    top: 110px;
-  
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
-    text-align: right;
-  
-    color: #1c1c1c;
-  }
-  
-  .texto2_quadro3 {
-    position: absolute;
-    width: 350px;
-    height: 30px;
-    left: 30px;
-    top: 210px;
-  
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 14px;
-    text-align: right;
-  
-    color: #888888;
-  }
-  
-  .botao1_quadro3 {
-    position: absolute;
-    height: 34px;
-    width: 120px;
-    right: 15px;
-    top: 300px;
-  
-    background: #5b25b1;
-    border-radius: 50px;
-  }
-  
-  .texto3_quadro3 {
-    position: absolute;
-    height: 15px;
-    left: 13px;
-    top: calc(50% - 14px / 2);
-  
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 14px;
-    /* identical to box height */
-  
-    text-align: center;
-  
-    color: #ffffff;
-  }
+  width: 100vw;
+  height: 406px;
+  margin-top: 140px;
+  margin-bottom: 20px;
+}
+
+.foto1_quadro3 {
+  position: absolute;
+  width: 406px;
+  height: 406px;
+  left: 400px;
+
+  background-image: url("/projeto_integrador/img/imagem3.jpg");
+}
+
+.foto2_quadro3 {
+  position: absolute;
+  width: 406px;
+  height: 406px;
+  left: 280px;
+}
+.texto1_quadro3 {
+  position: absolute;
+  width: 340px;
+  height: 56px;
+  left: 40px;
+  top: 110px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: right;
+
+  color: #1c1c1c;
+}
+
+.texto2_quadro3 {
+  position: absolute;
+  width: 350px;
+  height: 30px;
+  left: 30px;
+  top: 210px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: right;
+
+  color: #888888;
+}
+
+.botao1_quadro3 {
+  position: absolute;
+  height: 34px;
+  width: 120px;
+  right: 15px;
+  top: 300px;
+
+  background: #5b25b1;
+  border-radius: 50px;
+}
+
+.texto3_quadro3 {
+  position: absolute;
+  height: 15px;
+  left: 13px;
+  top: calc(50% - 14px / 2);
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 14px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
