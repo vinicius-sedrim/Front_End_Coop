@@ -22,7 +22,7 @@
 
 .quadro2 {
   position: relative;
-  width: 100vw;
+  /* width: 100vw; */
   height: 406px;
 
   top: 50px;
@@ -43,7 +43,7 @@
   width: 406px;
   height: 406px;
   left: 280px;
-  background-image: url("/projeto_integrador/img/imagem2.jpg");
+  background-image: url("./img/imagem2.jpg");
   background-size: 110%;
 }
 

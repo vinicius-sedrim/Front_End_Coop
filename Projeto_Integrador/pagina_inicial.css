@@ -8,7 +8,7 @@
 
 header {
   height: 70px;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .logo_branco {
@@ -83,48 +83,55 @@ li {
 }
 
 footer {
+  align-items: center;
   height: 110px;
-  width: 100vw;
+  /* width: 100vw; */
+  display: flex;
+  justify-content: space-between;
   background: #5b25b1;
   margin-top: 150px;
 }
 
+.icons {
+  display: flex;
+}
+
 .imagem_logo {
-  position: absolute;
+  /* position: absolute; */
   width: 175px;
   height: 72px;
-  left: 84px;
-  top: 2040px;
-  background-image: url(/projeto_integrador/img/logo.jpg);
+  /* left: 84px;
+  top: 2040px; */
+  background-image: url("./img/logo.jpg");
   background-size: contain;
 }
 
 .face_logo {
-  position: absolute;
+  /* position: absolute; */
   height: 50px;
   width: 50px;
-  top: 2050px;
-  left: 1100px;
+  /* top: 2050px;
+  left: 1100px; */
 
-  background-image: url(/projeto_integrador/img/facebook.jpg);
+  background-image: url("./img/facebook.jpg");
 }
 
 .twitter_logo {
-  position: absolute;
+  /* position: absolute; */
   height: 30px;
   width: 30px;
-  top: 2057px;
-  left: 1150px;
+  /* top: 2057px;
+  left: 1150px; */
 
-  background-image: url(/projeto_integrador/img/twitter.jpg);
+  background-image: url("./img/twitter.jpg");
 }
 
 .insta_logo {
-  position: absolute;
+  /* position: absolute; */
   height: 35px;
   width: 35px;
-  top: 2048px;
-  left: 1190px;
+  /* top: 2048px;
+  left: 1190px; */
 
-  background-image: url(/projeto_integrador/img/instagram.jpg);
+  background-image: url("./img/instagram.jpg");
 }

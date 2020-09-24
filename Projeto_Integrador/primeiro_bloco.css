@@ -1,7 +1,10 @@
 .quadro1 {
-    width: 100vw;
-    height: 406px;
-    margin-top: 15px;
+    /* width: 100vw; */
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .foto1_quadro1 {
@@ -10,7 +13,9 @@
     height: 406px;
     left: 400px;
   
-    background-image: url("/projeto_integrador/img/imagem1.jpg");
+    /* passar imagens pro html e tomar cuidado com o caminho */
+    /* caminho era assim: background-image: url("/projeto_integrador/img/imagem1.jpg"); */
+    background-image: url("./img/imagem1.jpg");
   }
   
   .foto2_quadro1 {

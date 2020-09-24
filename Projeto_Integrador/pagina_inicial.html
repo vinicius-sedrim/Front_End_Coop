@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8" />
@@ -12,18 +12,29 @@
 </head>
 
 <body>
+  <!-- TENTA TROCAR P NOMES INTUITIVOS NAS DIVS (depois q tiver tudo arrumado) -->
+  <!-- TENTAR USAR TAGS SEMANTICAS (section, article) -->
+  <!-- TEXTOS DAS SEÇÕES DENTRO DE <P> -->
+
+
+  <!-- Colocando header dentro do body -->
   <header>
 
     <div>
+      <!-- Mudando caminho do src de imagem e tirando do menu -->
+      <img class="logo_branco" src="./img/logo_branco.jpg" alt="">
     </div>
     <ul>
-      <li><img class="logo_branco" src="./img/logo_branco.jpg" alt=""></li>
-      <li>Inicio</li>
+      <!-- Dentro do 'li' deve ter o 'a href="ID DA SECTION"' -->
+      <!-- estilizar fonte sempre no 'a' -->
+      <li><a href="#">Início</a></li>
       <li>Quem Somos</li>
       <li>Como funciona</li>
       <li>Responsáveis</li>
       <li class="login">Login</li>
       <li class="cadastro">
+         <!-- Talvez seja melhor colocar os botoes como 'a href' -->
+        <!-- Colocando os 'a' como 'display: block' no css, voce consegue definir tamanho e largura como se fosse div // caso for usar div: colocar cursor:pointer no css-->
         <div class="texto_cadastro">Cadastre sua ONG</div>
       </li>
     </ul>
@@ -33,6 +44,7 @@
 
 
   <div class="quadro1">
+    <!-- As imagens ACHO que é melhor colocar dentro das divs e tirar do css como background -->
     <div class="foto2_quadro1">
       <div class="foto1_quadro1"></div>
       <div class="texto1_quadro1">Colabore com o trabalho de ONGs</div>
@@ -42,15 +54,17 @@
         milhares de pessoas.
       </div>
       <div class="botao1_quadro1">
-        <div class="texto3_quadro1">Quero Colaborar</div>
+        <!-- Talvez seja melhor colocar os botoes como 'a href' -->
+        <!-- Colocando os 'a' como 'display: block' no css, voce consegue definir tamanho e largura como se fosse div -->
+        <a href="#" class="texto3_quadro1">Quero Colaborar</a>
       </div>
     </div>
   </div>
 
 
 
-  <div class="inicio_quadro2"></div>
   <div class="quadro2">
+    <!-- <div class="inicio_quadro2"></div> essa div faz o que? kkk (provavelmente vai ser um template pro background dessa div) -->
     <div class="foto2_quadro2">
       <div class="foto1_quadro2">
         <div class="texto1_quadro2">Quem somos</div>
@@ -64,8 +78,8 @@
         </div>
       </div>
     </div>
+    <!-- <div class="fim_quadro2"></div> essa div faz o que? kkk -->
   </div>
-  <div class="fim_quadro2"></div>
 
 
   <div class="quadro3">
@@ -82,7 +96,9 @@
       </div>
     </div>
   </div>
-  <div class="inicio_quadro4"></div>
+
+
+  <!-- <div class="inicio_quadro4"></div>essa div faz o que? kkk -->
   <div class="quadro4">
     <div class="foto2_quadro4">
 
@@ -107,19 +123,24 @@
         </div>
       </div>
     </div>
-    <div class="fim_quadro4"></div>
+    <!-- <div class="fim_quadro4"></div> essa div faz o que? kkk -->
   </div>
 
 </body>
 
-<footer>
 
+<footer>
+  <!-- No footer melhor usar icons das redes sociais -->
+  <!-- Icons dentro de 'a href' -->
+  <div class="imagem_logo"></div>
+  <div class="icons">
+    <div class="face_logo"></div>
+    <div class="twitter_logo"></div>
+    <div class="insta_logo"></div>
+  </div>
+ 
 </footer>
 
-<div class="imagem_logo"></div>
-<div class="face_logo"></div>
-<div class="twitter_logo"></div>
-<div class="insta_logo"></div>
 
 
 

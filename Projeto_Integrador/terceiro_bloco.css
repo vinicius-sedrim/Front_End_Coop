@@ -1,6 +1,6 @@
 .quadro3 {
-  width: 100vw;
-  height: 406px;
+  /* width: 100vw; */
+  height: 100vh;
   margin-top: 140px;
   margin-bottom: 20px;
 }
@@ -11,7 +11,7 @@
   height: 406px;
   left: 400px;
 
-  background-image: url("/projeto_integrador/img/imagem3.jpg");
+  background-image: url("./img/imagem3.jpg");
 }
 
 .foto2_quadro3 {
